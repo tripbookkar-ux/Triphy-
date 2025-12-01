@@ -83,6 +83,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+       {
+        protocol: 'https',
+        hostname: 'www.oberoihotels.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
