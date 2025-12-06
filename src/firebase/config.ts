@@ -1,8 +1,9 @@
 export const firebaseConfig = {
-  "projectId": "studio-1865376664-5e932",
-  "appId": "1:310548221344:web:e7d892259b75ccc36b68c5",
-  "apiKey": "AIzaSyDhh7F5TapGkd68FAkSiZBXSrus7f6dVHg",
-  "authDomain": "studio-1865376664-5e932.firebaseapp.com",
-  "measurementId": "",
-  "messagingSenderId": "310548221344"
+  apiKey: "AIzaSyBKLiwOclYyjEkyaxaGnKIZnGXYlwprAdo",
+  authDomain: "naeem-dadaa.firebaseapp.com",
+  projectId: "naeem-dadaa",
+  storageBucket: "naeem-dadaa.firebasestorage.app",
+  messagingSenderId: "849246117474",
+  appId: "1:849246117474:web:b973e3098bd019a4c83b3b",
+  measurementId: "G-NQWSWB1B22"
 };

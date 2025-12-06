@@ -12,7 +12,8 @@
     "typecheck": "tsc --noEmit",
     "create-admin": "node scripts/create-admin.js",
     "images:remote": "node scripts/download-optimize-upload.js",
-    "optimize:images": "node scripts/process-images.js"
+    "optimize:images": "node scripts/process-images.js",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@genkit-ai/google-genai": "^1.20.0",
@@ -48,7 +49,7 @@
     "date-fns": "^3.6.0",
     "dotenv": "^16.5.0",
     "embla-carousel-react": "^8.6.0",
-    "firebase": "^11.9.1",
+    "firebase": "^11.10.0",
     "firebase-admin": "^11.5.0",
     "fs-extra": "^11.2.0",
     "genkit": "^1.20.0",
@@ -60,8 +61,8 @@
     "p-limit": "^5.0.0",
     "patch-package": "^8.0.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "react-day-picker": "^8.10.1",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.54.2",
     "react-icons": "^4.10.1",
     "recharts": "^2.15.1",
